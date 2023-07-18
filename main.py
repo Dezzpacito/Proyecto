@@ -5,4 +5,4 @@ app = Flask(__name__)
 @app.route('/')
 
 def test():
-    return "change"
+    return "change 2 electric boogaloo"
