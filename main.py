@@ -8,14 +8,10 @@ app = Flask(__name__)
 def index():
     return 'index'
 
-@app.route('/login')
+@app.route('/login/')
 def login():
     return 'login lmao'
 
 @app.route('/user/<username>')
 def profile(username):
     return f'{username}\'s profile'
-
-@app.route('/user/alfonso')
-def profile(username):
-    return "Alfonso gay lmfao"
