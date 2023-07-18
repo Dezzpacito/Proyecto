@@ -5,5 +5,4 @@ app = Flask(__name__)
 @app.route('/')
 
 def test():
-    return "is there"
-    return "coolio"
+    return "ah"
